@@ -14,15 +14,8 @@ class Home extends StatelessWidget {
         centerTitle: true,
       ),
       body: Center(
-        child: Text(
-          'Hello People !',
-          style: TextStyle(
-            fontFamily: 'Roboto',
-            fontSize: 20.0,
-            fontWeight: FontWeight.bold,
-            letterSpacing: 2.0,
-            color: Colors.grey[600],
-          ),
+        child: Image(
+          image: AssetImage('assets\img2.jpg'),
         ),
       ),
       floatingActionButton: FloatingActionButton(
